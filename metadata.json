@@ -1,0 +1,6 @@
+{
+  "name": "Chat de IA - Especialista en Aprendizaje de Idiomas",
+  "description": "Asistente inteligente especializado en las guías, métodos, recursos y libros de autoaprendizaje de inglés, francés, italiano y japonés.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

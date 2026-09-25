@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Custom horizontal scrollbar for language topics bar */
+.topics-scrollbar::-webkit-scrollbar {
+  height: 6px;
+}
+.topics-scrollbar::-webkit-scrollbar-track {
+  background: #e0f2fe; /* sky-100 */
+  border-radius: 9999px;
+}
+.topics-scrollbar::-webkit-scrollbar-thumb {
+  background: #38bdf8; /* sky-400 */
+  border-radius: 9999px;
+  border: 1px solid #bae6fd;
+}
+.topics-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #0284c7; /* sky-600 */
+}
+.topics-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #38bdf8 #e0f2fe;
+}
